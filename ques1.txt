@@ -1,0 +1,34 @@
+TASK - DAY 2
+
+DIFFERENCE BETWEEN THE DOCUMENT OBJECT AND WINDOW OBJECT
+
+DOCUMENT :
+1. It is represented by any HTML file or web page, which is loaded in the browser.
+
+2. Though it is an HTML file, it contains elements with attributes and all the HTML tags.
+
+3. It is loaded inside the window and then it is a object of window property.
+
+4. It is based on both BOM( Browser Object Model) and DOM(Document Object Model).
+
+5. It can be accessed by window.document
+
+6. For accessing the property of the document object like title, body of the document,
+we can use document.propertyname;
+
+Example: document.body;
+
+WINDOW :
+1. It is represented by the browser file or contents of the webpage.
+
+2. It contains functions, variables of the javascript.
+
+3. It is the first object loaded in the browser and it is a object of browser.
+
+4. It is only based on DOM(Document Object Model).
+
+5. It can be accessed by window.window
+
+6. For accessing the property of the window, we can use window.propertyname;
+
+Example: window.fullscreen;
